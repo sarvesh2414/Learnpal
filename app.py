@@ -30,7 +30,7 @@ def generate_unique_question(content):
     question = response.choices[0].message.content
     return clean_question(question)
 
-# Function to generate questions for each subject
+# Function to generate questions for each subjects
 def generate_subject_questions(subject, num_questions):
     questions = []
     for _ in range(num_questions):
